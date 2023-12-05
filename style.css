@@ -1,6 +1,6 @@
 /* AYAULYM */
 @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
-*, *, ::after, ::before {
+*, ::before {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
