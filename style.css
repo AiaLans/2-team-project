@@ -1,0 +1,289 @@
+/* AYAULYM */
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+*, *, ::after, ::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.Ayaulym {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+.Aia #header {
+    background-color: #f4f4f4;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Aia #header #Seytech {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 10%;
+}
+.Aia #header #button {
+    background-color: #007bff;
+    border-color: 1px solid #007bff;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    text-decoration: none;
+    width: 5%;
+    margin-right: 10%;
+}
+
+/* Header Showase Style */
+#header2 {
+    background-image: url(http://s1.fotokto.ru/photo/full/586/5863263.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#header2 #b {
+    color: white;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    font-size: 400%;
+    text-align: center;
+}
+#header2 #a {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15%;
+}
+#header2 #a #input {
+    border: white;
+    border-radius: 5px;
+    width: 40%;
+    height: 60px;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header2 #a .button {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    width: 200px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 450px;
+}
+
+
+/* Section */
+.Aia2 {
+    color: black;
+    height: 50vh;
+    padding: 50px 0;
+    padding-left: 100px;
+    background-color: #f4f4f4;
+}
+.Aia2 .s1 {
+    float: left;
+    margin: 50px;
+    margin-left: 70px;
+    text-align: center;
+}
+.Aia2 .s1 .fully b {
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.Aia2 .s1 .f {
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.Aia2 .s1 i span {
+    font-size: 100px;
+    color: #007bff;
+}
+.Aia2 .s1 i span:hover{
+    font-size: 120px;
+}
+
+
+/* Media for phone */
+@media screen and (min-width:0px) and (max-width: 426px) {
+    .Aia #header {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        height: 3vh;
+    }
+    .Aia #header #Seytech {
+        font-size: 20px;
+        padding: 5px;
+        /* padding-top: 20px; */
+        /* margin-top: 50px; */
+    }
+    .Aia #header #button {
+        font-size: 20px;
+        padding: 0px;
+        margin: 0;
+        width: 100px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+
+    #header2 {
+        height: 30vh;
+        width: 212px;
+    }
+    #header2 #b {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #header2 #a {
+        display: block;
+    }
+    #header2 #a #input {
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        padding-left: 5px;
+        margin: 0;
+        /* margin-right: 100px; */
+    }
+    #header2 #a #button2 {
+        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        margin-top: 8px;
+        display: grid;
+    }
+    .Aia2 {
+        /* height: 50vh; */
+        padding: 0px;
+        margin: 0;
+        height: 40vh;
+    }
+    .Aia2 .s1 {
+        float: left;
+        margin: 0px;
+        text-align: center;
+    }
+    .Aia2 .s1 .fully b {
+        font-size: 10px;
+
+    }
+    .Aia2 .s1 .f {
+        width: 215px;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .Aia2 .i {
+        width: 60px;
+    }
+    .Aia2 .i:hover {
+        width: 70px;
+        margin: 0;
+    }
+}
+
+/* Media for tablet */
+@media screen and (min-width:426px) and (max-width: 768px) {
+    .Aia #header {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        height: 5vh;
+    }
+    .Aia #header #Seytech {
+        font-size: 20px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+    .Aia #header #button {
+        font-size: 20px;
+        padding: 0px;
+        margin: 0;
+        width: 100px;
+        margin-left: 200px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    #header2 {
+        height: 50vh;
+        width: 420px;
+    }
+    #header2 #b {
+        font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #header2 #a {
+        display: block;
+    }
+    #header2 #a #input {
+        width: 350px;
+        height: 30px;
+        font-size: 15px;
+        padding-left: 5px;
+        margin: 0;
+        /* margin-right: 100px; */
+    }
+    #header2 #a #button2 {
+        font-size: 15px;
+        width: 350px;
+        height: 40px;
+        margin-top: 8px;
+        display: grid;
+    }
+    .Aia2 {
+        padding: 0px;
+        margin: 0;
+        width: 390px;
+        height: 120vh;
+    }
+    .Aia2 .s1 {
+        margin: 0px;
+        display: flex;
+        padding-left: 60px;
+        flex-flow: column wrap;
+        text-align: center;
+    }
+    .Aia2 .s1 .fully b {
+        font-size: 40px;
+    }
+    .Aia2 .s1 .f {
+        width: 215px;
+        text-align: center;
+        font-size: 30px;
+        padding-left: 0;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .Aia2 .i {
+        margin-left: 50px;
+        width: 120px;
+    }
+    .Aia2 .i:hover {
+        width: 130px;
+        margin: 0;
+    }
+}
