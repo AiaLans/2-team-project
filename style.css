@@ -86,8 +86,6 @@
     text-align: center;
     margin-right: 450px;
 }
-
-
 /* Section */
 .Aia2 {
     color: black;
@@ -120,6 +118,194 @@
 .Aia2 .s1 i span:hover{
     font-size: 120px;
 }
+
+/* SOPHIE */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 300;
+}
+/* showcase */
+.sophie{
+    display: inline-block;
+    padding-bottom: 0;
+}
+.showcase-img{
+    width: 50%;
+    
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+.showcase-img-1{
+    float: right;
+}
+.showcase-img-2{
+    float: left;
+}
+.showcase-img-3{
+    float: right;
+}
+img{
+    width: 100%;
+}
+.showcase-text{
+    width: 50%;
+    text-align: center;
+    padding-top: 13%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 120%;
+    padding-bottom: 0;
+}
+.showcase-text-1{
+    float: left;
+}
+.showcase-text-2{
+    float: right;
+}
+.showcase-text-3{
+    float: left;
+}
+
+/* ANELI */
+.body {
+    margin:0;
+    padding:0;
+    background-color: #f4f4f4;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+.t3 {
+    height: 60vh;
+    margin-left: 15%;
+}
+.t3 .mb-5 {
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.t3 .container .a,
+.t3 .container .b,
+.t3 .container .c {
+    float: left;
+    padding: 0 5%;
+}
+.f {
+    width: 200px;
+    border-radius: 100px;
+}
+.t3 .container .a h5 b {
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.t3 .container .b h5 b,
+.t3 .container .c h5 b {
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+.t3 .container .b .a2 {
+    text-align: center;
+    width: 300px;
+}
+
+/* SOPHIE */
+/* register */
+.sophie-register{
+    background-image: url(https://gas-kvas.com/uploads/posts/2023-02/1675431406_gas-kvas-com-p-okean-fonovie-risunki-21.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+.register-text{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+.register-button{
+    color: white;
+    background-color: rgb(0, 149, 255);
+    border: 0;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 1%;
+    width: 10%;
+    margin-left: 1%;
+}
+.input-button{
+    width: 25%;
+    padding: 1%;
+    border-radius: 5%;
+    border: 0;
+}
+.input-button:focus{
+    border: solid 5px rgb(0, 149, 255);
+}
+.register-tap{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+/* footer */
+.footer {
+    color: #000;
+}
+.list-item{
+    display: inline;
+    color: rgb(0, 149, 255);
+}
+.sophie-a{
+    text-decoration: none;
+}
+.sophie-footer-text{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    float: left;
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5.5%;
+    padding-right: 15%;
+    margin: 0;
+}
+.facebook img {
+    max-width: 20px;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.dot {
+    color:#000;
+}
+footer .container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.social-icons {
+    font-size: 28px;
+    display: flex;
+    gap: 40px;
+}
+.fa-instagram:hover {
+    color: #0d3e74;
+}
+.fa-facebook:hover {
+    color:#0d3e74;
+}
+.fa-twitter:hover {
+    color: #0d3e74;
+}
+
+
 
 /* Media for phone AYAULYM */
 @media screen and (min-width:320px) and (max-width: 480px) {
@@ -286,5 +472,58 @@
     .Aia2 .i:hover {
         width: 130px;
         margin: 0;
+    }
+}
+
+/* Media SOPHIE */
+@media (min-width: 0px) and (max-width: 768px) {
+
+    /* footer */
+
+    .sophie-footer-text, .social-icons{
+        display: block;
+    }
+
+    .sophie-footer-text{
+        text-align: center;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        padding: 11%;
+    }
+
+    /* showcase */
+
+    .showcase-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .showcase-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .showcase-text{
+        padding-bottom: 10%;
+    }
+
+    /* register */
+
+    .input-button, .register-button{
+        display: block;
+    }
+
+    .input-button{
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+
+    .register-button{
+        margin-left: 43%;
+        width: 20%;
     }
 }
