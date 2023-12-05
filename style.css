@@ -121,33 +121,32 @@
     font-size: 120px;
 }
 
-
-/* Media for phone */
-@media screen and (min-width:0px) and (max-width: 426px) {
+/* Media for phone AYAULYM */
+@media screen and (min-width:320px) and (max-width: 480px) {
     .Aia #header {
         padding: 0;
         margin: 0;
         display: inline-block;
-        height: 3vh;
+        height: 6vh;
+        width: 100%;
     }
     .Aia #header #Seytech {
         font-size: 20px;
         padding: 5px;
-        /* padding-top: 20px; */
-        /* margin-top: 50px; */
+        margin-left: 3%;
     }
     .Aia #header #button {
         font-size: 20px;
         padding: 0px;
         margin: 0;
         width: 100px;
-        margin-left: 30px;
+        margin-left: 50%;
+        margin-top: 1%;
         display: inline-block;
     }
-
     #header2 {
-        height: 30vh;
-        width: 212px;
+        height: 50vh;
+        width: 420px;
     }
     #header2 #b {
         font-size: 20px;
@@ -156,36 +155,36 @@
     }
     #header2 #a {
         display: block;
+        margin-top: 0;
     }
     #header2 #a #input {
-        width: 150px;
+        width: 300px;
         height: 30px;
         font-size: 15px;
         padding-left: 5px;
         margin: 0;
-        /* margin-right: 100px; */
     }
-    #header2 #a #button2 {
+    #header2 #a .button {
         font-size: 15px;
-        width: 150px;
-        height: 40px;
+        width: 300px;
+        height: 30px;
         margin-top: 8px;
         display: grid;
     }
     .Aia2 {
-        /* height: 50vh; */
         padding: 0px;
         margin: 0;
-        height: 40vh;
+        height: 100vh;
+        padding-left: 15%;
     }
     .Aia2 .s1 {
         float: left;
         margin: 0px;
         text-align: center;
+        
     }
     .Aia2 .s1 .fully b {
-        font-size: 10px;
-
+        font-size: 30px;
     }
     .Aia2 .s1 .f {
         width: 215px;
@@ -194,22 +193,23 @@
         padding-top: 5px;
         padding-bottom: 10px;
     }
-    .Aia2 .i {
-        width: 60px;
+    .Aia2 .s1 .i {
+        width: 30px;
     }
-    .Aia2 .i:hover {
-        width: 70px;
+    .Aia2 .s1 .i:hover {
+        width: 20px;
         margin: 0;
     }
 }
 
-/* Media for tablet */
-@media screen and (min-width:426px) and (max-width: 768px) {
+/* Media for tablet AYAULYM */
+@media screen and (min-width:481px) and (max-width: 767px) {
     .Aia #header {
         padding: 0;
         margin: 0;
         display: inline-block;
-        height: 5vh;
+        height: 10vh;
+        width: 100%;
     }
     .Aia #header #Seytech {
         font-size: 20px;
@@ -221,15 +221,15 @@
         padding: 0px;
         margin: 0;
         width: 100px;
-        margin-left: 200px;
+        margin-left: 260px;
         margin-top: 10px;
         display: inline-block;
         margin-right: 20px;
     }
 
     #header2 {
-        height: 50vh;
-        width: 420px;
+        height: 55vh;
+        width: 100%;
     }
     #header2 #b {
         font-size: 30px;
@@ -238,32 +238,33 @@
     }
     #header2 #a {
         display: block;
+        margin: 0;
     }
     #header2 #a #input {
-        width: 350px;
+        width: 90%;
         height: 30px;
         font-size: 15px;
         padding-left: 5px;
         margin: 0;
         /* margin-right: 100px; */
     }
-    #header2 #a #button2 {
+    #header2 #a .button {
         font-size: 15px;
-        width: 350px;
-        height: 40px;
+        width: 90%;
+        height: 30px;
         margin-top: 8px;
         display: grid;
     }
     .Aia2 {
         padding: 0px;
         margin: 0;
-        width: 390px;
-        height: 120vh;
+        width: 100%;
+        height: 150vh;
     }
     .Aia2 .s1 {
         margin: 0px;
         display: flex;
-        padding-left: 60px;
+        padding-left: 15%;
         flex-flow: column wrap;
         text-align: center;
     }
@@ -271,9 +272,9 @@
         font-size: 40px;
     }
     .Aia2 .s1 .f {
-        width: 215px;
+        width: 80%;
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 0;
         padding-top: 5px;
         padding-bottom: 10px;
